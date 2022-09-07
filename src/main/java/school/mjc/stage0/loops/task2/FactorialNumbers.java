@@ -5,9 +5,9 @@ public class FactorialNumbers {
         int num = 1, mult = 1;
             System.out.println(1);
             while (num <= printToInclusive){
-                for (int i = 2; i < num; i++) mult *= i;
+                 mult *= num;
                 System.out.println(mult);
-                mult = 1;
+                
                 num++;
             }
 
