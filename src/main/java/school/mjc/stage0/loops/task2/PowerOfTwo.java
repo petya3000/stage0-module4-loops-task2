@@ -5,7 +5,7 @@ public class PowerOfTwo {
         int deg = 0;
 
             while (deg <= power){
-                System.out.println(Math.pow(2, deg));
+                System.out.println((int)Math.pow(2, deg));
                 deg++;
             }
 
