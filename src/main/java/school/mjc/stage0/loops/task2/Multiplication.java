@@ -10,7 +10,7 @@ public class Multiplication {
             }
         else if (multiplyByAndToInclusive < 0)
              while (num >=  multiplyByAndToInclusive){
-                System.out.println(num *  multiplyByAndToInclusive);
+                System.out.println((-num) *  multiplyByAndToInclusive);
                 num--;
             }
        
